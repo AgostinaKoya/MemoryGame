@@ -63,8 +63,6 @@ export const Game = () => {
         <GameHeader
         winner={winner}
         gameOver={gameOver} movements={movements} matched={matched} resetGame={resetGame} timeLeft={timeLeft} cards={cards}
-
-
         />
       </header>
 

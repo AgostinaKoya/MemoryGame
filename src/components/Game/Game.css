@@ -1,13 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 
-:root {
-  --bg: #11172c;
-  --accent: #a855f7;
-  --accent-light: #c084fc;
-  --text: #f8f8f8;
-  --text-secondary: #b3b3b3;
-}
 
 body {
   background: #101626;
