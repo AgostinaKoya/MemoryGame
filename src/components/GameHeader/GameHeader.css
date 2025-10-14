@@ -1,0 +1,56 @@
+
+.tittle {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem; /* Un poco más grande para impacto */
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.5px; 
+    text-shadow: 0 4px 15px rgba(74, 0, 183, 0.4); 
+    margin-bottom: 30px;
+}
+
+.winner-message {
+  background: rgba(0, 255, 150, 0.15);
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  color: #00ff9d;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+  box-shadow: 0 0 12px rgba(0, 255, 200, 0.4);
+  backdrop-filter: blur(6px);
+}
+
+.loser-message {
+  background: rgba(255, 0, 80, 0.15);
+  border: 1px solid rgba(255, 0, 80, 0.5);
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  color: #ff4b7a;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+  box-shadow: 0 0 12px rgba(255, 0, 100, 0.4);
+  backdrop-filter: blur(6px);
+}
+
+
+.game-stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1.5rem 0;
+  padding: 1rem 2rem;
+}
+
+
+
+.game-stats p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #b3b3b3;
+  letter-spacing: 0.4px;
+}
+
+.game-stats p strong {
+  color: #c084fc;
+}
